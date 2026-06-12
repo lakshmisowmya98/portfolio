@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Sales Analytics Using SQL</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        .project-container{
+            max-width:1200px;
+            margin:auto;
+            padding:40px 20px;
+        }
+
+        .project-header{
+            text-align:center;
+            margin-bottom:50px;
+        }
+
+        .project-header h1{
+            font-size:42px;
+            margin-bottom:10px;
+        }
+
+        .project-header p{
+            font-size:18px;
+            color:#cccccc;
+        }
+
+        .info-box{
+            background:#1e2a44;
+            padding:25px;
+            border-radius:12px;
+            margin-bottom:30px;
+        }
+
+        .info-box h2{
+            margin-bottom:15px;
+            color:#4fc3f7;
+        }
+
+        .skills{
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+        }
+
+        .skill{
+            background:#4fc3f7;
+            color:black;
+            padding:8px 15px;
+            border-radius:20px;
+            font-weight:bold;
+        }
+
+        .analysis-card{
+            background:#1e2a44;
+            margin-bottom:40px;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        .analysis-card img{
+            width:100%;
+            display:block;
+        }
+
+        .analysis-content{
+            padding:25px;
+        }
+
+        .analysis-content h3{
+            color:#4fc3f7;
+            margin-bottom:15px;
+        }
+
+        .analysis-content p{
+            line-height:1.7;
+        }
+
+        .back-btn{
+            display:inline-block;
+            margin-top:30px;
+            background:#4fc3f7;
+            color:black;
+            text-decoration:none;
+            padding:12px 25px;
+            border-radius:8px;
+            font-weight:bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<nav>
+    <h2>Lakshmi Sowmya</h2>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+</nav>
+
+<div class="project-container">
+
+    <div class="project-header">
+
+        <h1>Retail Sales Analytics Using SQL</h1>
+
+        <p>
+            Advanced SQL project using CTEs, Window Functions,
+            Ranking Functions, Customer Segmentation and Pareto Analysis.
+        </p>
+
+    </div>
+
+    <div class="info-box">
+
+        <h2>Project Overview</h2>
+
+        <p>
+            This project analyzes Superstore sales data using advanced SQL techniques.
+            The objective was to identify top-performing customers, profitable products,
+            regional sales trends and revenue-driving products through business-focused
+            SQL analysis.
+        </p>
+
+    </div>
+
+    <div class="info-box">
+
+        <h2>Tools & Skills Used</h2>
+
+        <div class="skills">
+
+            <span class="skill">SQL</span>
+            <span class="skill">SQLite</span>
+            <span class="skill">CTE</span>
+            <span class="skill">Window Functions</span>
+            <span class="skill">RANK()</span>
+            <span class="skill">Business Analytics</span>
+            <span class="skill">Customer Segmentation</span>
+            <span class="skill">Pareto Analysis</span>
+
+        </div>
+
+    </div>
+
+    <!-- Analysis 1 -->
+
+    <div class="analysis-card">
+
+        <img src="sql/sql1.png">
+
+        <div class="analysis-content">
+
+            <h3>Top Customers by Region</h3>
+
+            <p>
+                Used Common Table Expressions (CTEs) and Window Functions to rank
+                customers based on revenue contribution within each region.
+                This helps identify the highest-value customers for targeted
+                business strategies.
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Analysis 2 -->
+
+    <div class="analysis-card">
+
+        <img src="sql/sql2.png">
+
+        <div class="analysis-content">
+
+            <h3>Customer Segmentation Analysis</h3>
+
+            <p>
+                Categorized customers into VIP, Premium and Regular segments
+                based on total sales contribution. This type of segmentation
+                helps businesses prioritize retention and loyalty programs.
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Analysis 3 -->
+
+    <div class="analysis-card">
+
+        <img src="sql/sql3.png">
+
+        <div class="analysis-content">
+
+            <h3>Product Profitability Analysis</h3>
+
+            <p>
+                Evaluated revenue, profit and profit margin percentage for
+                products to identify highly profitable items and support
+                pricing and inventory decisions.
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Analysis 4 -->
+
+    <div class="analysis-card">
+
+        <img src="sql/sql4.png">
+
+        <div class="analysis-content">
+
+            <h3>Regional Performance Analysis</h3>
+
+            <p>
+                Compared sales revenue, profitability and customer counts
+                across different regions to determine the strongest and
+                weakest performing markets.
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Analysis 5 -->
+
+    <div class="analysis-card">
+
+        <img src="sql/sql5.png">
+
+        <div class="analysis-content">
+
+            <h3>Pareto (80/20) Analysis</h3>
+
+            <p>
+                Applied cumulative revenue analysis using Window Functions
+                to identify products contributing the majority of total sales.
+                This supports portfolio optimization and revenue planning.
+            </p>
+
+        </div>
+
+    </div>
+
+    <a href="index.html" class="back-btn">
+        ← Back to Portfolio
+    </a>
+
+</div>
+
+</body>
+</html>
