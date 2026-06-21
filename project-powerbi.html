@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supply Chain Demand Planning Dashboard | Lakshmi Sowmya</title>
+<meta name="description" content="Power BI Supply Chain Demand Planning Dashboard with Forecast vs Actual, Regional Performance, Inventory and Supplier Analysis by Lakshmi Sowmya.">
+<link rel="icon" href="assets/profile.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<style>
+.project-container { max-width: 1100px; margin: auto; padding: 40px 24px; }
+
+.project-header { text-align: center; margin-bottom: 50px; }
+.project-header h1 { font-size: 2rem; margin: 0 0 14px; }
+.project-header p { font-size: 1rem; color: #94a3b8; max-width: 680px; margin: 0 auto; line-height: 1.7; }
+
+.tool-tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 18px; }
+.tool-tag {
+    font-size: 0.8rem; padding: 5px 14px; border-radius: 20px;
+    background: #0f172a; color: #38bdf8;
+    border: 1px solid #38bdf8; font-weight: 500;
+}
+
+.info-box {
+    background: #1e293b; padding: 26px 28px;
+    border-radius: 14px; margin-bottom: 24px;
+    border: 1px solid #334155;
+}
+.info-box h2 { margin: 0 0 14px; color: #38bdf8; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.info-box p, .info-box li { color: #cbd5e1; line-height: 1.8; font-size: 0.95rem; margin: 0 0 6px; }
+.info-box ul { padding-left: 20px; margin: 0; }
+
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; margin-bottom: 32px; }
+.kpi-card {
+    background: #1e293b; padding: 22px 16px;
+    border-radius: 12px; text-align: center;
+    border: 1px solid #334155; transition: border-color 0.2s;
+}
+.kpi-card:hover { border-color: #38bdf8; }
+.kpi-icon { font-size: 1.6rem; margin-bottom: 10px; }
+.kpi-card h4 { color: #38bdf8; margin: 0 0 6px; font-size: 0.9rem; }
+.kpi-card p { color: #64748b; margin: 0; font-size: 0.82rem; line-height: 1.5; }
+
+/* Dashboard screenshots */
+.dashboard-section { margin-bottom: 40px; }
+.dashboard-section h2 { font-size: 1.2rem; color: #f1f5f9; margin: 0 0 20px; padding-bottom: 10px; border-bottom: 1px solid #334155; }
+
+.screenshot-card {
+    background: #1e293b; border-radius: 14px;
+    overflow: hidden; border: 1px solid #334155;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    margin-bottom: 24px;
+}
+.screenshot-card img { width: 100%; display: block; }
+.screenshot-content { padding: 22px 24px; }
+.screenshot-content h3 { color: #38bdf8; margin: 0 0 10px; font-size: 0.97rem; }
+.screenshot-content p { color: #cbd5e1; line-height: 1.75; font-size: 0.93rem; margin: 0; }
+
+.insight-row {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px; margin-top: 16px;
+}
+.insight { background: #0f172a; border-radius: 10px; padding: 14px 16px; border-left: 3px solid #38bdf8; }
+.insight p { color: #94a3b8; font-size: 0.88rem; margin: 0; line-height: 1.6; }
+.insight strong { color: #38bdf8; }
+
+.btn-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 36px; }
+.btn-outline {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 12px 22px; border-radius: 8px;
+    font-weight: 700; font-size: 0.9rem;
+    text-decoration: none; border: 1px solid #38bdf8;
+    color: #38bdf8; background: transparent;
+    transition: background 0.2s, transform 0.15s;
+}
+.btn-outline:hover { background: #1e293b; transform: translateY(-2px); }
+
+@media (max-width: 768px) {
+    .project-header h1 { font-size: 1.5rem; }
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <h2>Lakshmi Sowmya</h2>
+    <ul><li><a href="index.html">← Home</a></li></ul>
+</nav>
+
+<div class="project-container">
+
+    <div class="project-header">
+        <h1>Supply Chain Demand Planning Dashboard</h1>
+        <p>An end-to-end Power BI dashboard built on real supply chain data — tracking forecast accuracy, sales trends, regional performance and supplier health across 4 years of data (2014–2017).</p>
+        <div class="tool-tags">
+            <span class="tool-tag">Power BI</span>
+            <span class="tool-tag">DAX Measures</span>
+            <span class="tool-tag">Power Query</span>
+            <span class="tool-tag">Time Intelligence</span>
+            <span class="tool-tag">KPI Cards</span>
+            <span class="tool-tag">Slicers & Filters</span>
+            <span class="tool-tag">Drill-through</span>
+            <span class="tool-tag">Supply Chain Analytics</span>
+        </div>
+    </div>
+
+    <!-- KPI Summary -->
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-icon">💰</div>
+            <h4>$2M+ Total Sales</h4>
+            <p>Total revenue tracked across all regions and categories</p>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon">📈</div>
+            <h4>97% Forecast Accuracy</h4>
+            <p>Demand forecast accuracy measured against actual sales</p>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon">🚚</div>
+            <h4>86% On-Time Delivery</h4>
+            <p>Supplier on-time delivery rate across all vendors</p>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon">💵</div>
+            <h4>$286K Profit</h4>
+            <p>Total profit tracked with category and regional breakdown</p>
+        </div>
+    </div>
+
+    <!-- Page 1 -->
+    <div class="dashboard-section">
+        <h2>Page 1 — KPI Overview & Forecast vs Actual</h2>
+        <div class="screenshot-card">
+            <img src="projects/powerbi-overview.png" alt="Supply Chain KPI Overview and Forecast vs Actual Dashboard">
+            <div class="screenshot-content">
+                <h3>Headline KPIs + Monthly Forecast vs Actual Sales Trend</h3>
+                <p>The main dashboard page displays four headline KPI cards — Total Sales, Total Profit, Avg On-Time Delivery % and Forecast Accuracy % — followed by a monthly line chart comparing Forecast vs Actual Sales from January 2014 to December 2017. The dashed line represents forecast and the solid line represents actual, making variance immediately visible. Three slicers (Region, Category, Year) allow dynamic filtering of all visuals simultaneously.</p>
+                <div class="insight-row">
+                    <div class="insight"><p><strong>Key insight:</strong> Strong seasonal peaks visible every Q4 — consistent with retail demand cycles. Sales grew from 0.48M (2014) to 0.73M (2017), a 52% increase over 4 years.</p></div>
+                    <div class="insight"><p><strong>DAX used:</strong> Forecast Accuracy % measure using SUMX and MIN/MAX logic, KPI card measures for Total Sales and Profit, slicer-driven filtering via relationships.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="dashboard-section">
+        <h2>Page 2 — Regional Performance & Sales Trends</h2>
+        <div class="screenshot-card">
+            <img src="projects/powerbi-regional.png" alt="Regional Performance and Sales Trends Dashboard">
+            <div class="screenshot-content">
+                <h3>Sales by Region, Sub-Category Breakdown & Annual Trend</h3>
+                <p>Page 2 breaks down performance across four regions (West, East, Central, South) with a clustered bar chart segmented by product category. The Sub-Category bar chart on the right ranks all 17 sub-categories by revenue — Phones and Chairs lead at $0.33M each. The bottom left shows annual sales growth from 2014 to 2017. A Region slicer allows filtering all three charts simultaneously for deep-dive analysis.</p>
+                <div class="insight-row">
+                    <div class="insight"><p><strong>Key insight:</strong> West region leads all regions in sales across all three categories. Technology drives the highest revenue in East and West, while Office Supplies dominates Central.</p></div>
+                    <div class="insight"><p><strong>Key insight:</strong> Phones ($0.33M) and Chairs ($0.33M) are the top sub-categories — together contributing over $0.66M, roughly 30% of total revenue.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Business questions -->
+    <div class="info-box">
+        <h2>Business Questions Answered</h2>
+        <ul>
+            <li>How accurate is our demand forecast vs actual sales month by month?</li>
+            <li>Which regions and categories are driving the most revenue?</li>
+            <li>Which sub-categories contribute the most to total sales?</li>
+            <li>How are annual sales trending year-over-year from 2014 to 2017?</li>
+            <li>What is our supplier on-time delivery performance?</li>
+        </ul>
+    </div>
+
+    <!-- Outcomes -->
+    <div class="info-box">
+        <h2>Key Outcomes</h2>
+        <ul>
+            <li>Built a multi-page interactive report replacing manual Excel tracking.</li>
+            <li>97% forecast accuracy measure calculated dynamically using custom DAX.</li>
+            <li>Regional and sub-category breakdown reveals Phones and Chairs as top revenue drivers.</li>
+            <li>Seasonal demand patterns clearly visible — enabling proactive supply planning.</li>
+            <li>Slicers and cross-filtering enable instant drill-down without any manual pivot work.</li>
+        </ul>
+    </div>
+
+    <div class="btn-row">
+        <a href="YOUR_POWER_BI_LINK_HERE" target="_blank" class="btn">▶ View Live Dashboard</a>
+        <a href="index.html" class="btn-outline">← Back to Portfolio</a>
+    </div>
+
+</div>
+</body>
+</html>

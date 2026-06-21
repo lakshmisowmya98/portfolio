@@ -1,173 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Python Customer Sales Analytics</title>
-
+<title>Python Customer Sales Analytics | Lakshmi Sowmya</title>
+<link rel="stylesheet" href="style.css">
 <style>
-
-body{
-    margin:0;
-    padding:0;
-    background:#071633;
-    color:white;
-    font-family:Arial, sans-serif;
-}
-
-nav{
-    background:#1d2d4a;
-    padding:20px 50px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    font-size:18px;
-    font-weight:bold;
-}
-
-.container{
-    width:90%;
-    margin:auto;
-    padding:40px 0;
-}
-
-h1{
-    text-align:center;
-    margin-bottom:20px;
-}
-
-.project-description{
-    background:#1d2d4a;
-    padding:25px;
-    border-radius:12px;
-    margin-bottom:30px;
-}
-
-.project-description p{
-    line-height:1.8;
-}
-
-.section-title{
-    text-align:center;
-    margin:40px 0 20px;
-}
-
-.dashboard-image{
-    width:100%;
-    border-radius:12px;
-    margin-bottom:25px;
-    box-shadow:0 0 15px rgba(0,0,0,.4);
-}
-
-.card{
-    background:#1d2d4a;
-    padding:20px;
-    border-radius:12px;
-    margin-bottom:25px;
-}
-
-.card h3{
-    color:#4fc3f7;
-}
-
+.project-container{max-width:1100px;margin:auto;padding:40px 20px;}
+.project-header{text-align:center;margin-bottom:50px;}
+.project-header h1{font-size:2rem;margin-bottom:10px;}
+.project-header p{font-size:1rem;color:#94a3b8;}
+.info-box{background:#1e293b;padding:25px;border-radius:12px;margin-bottom:28px;border:1px solid #334155;}
+.info-box h2{margin-bottom:14px;color:#38bdf8;font-size:1.1rem;}
+.info-box p,.info-box li{color:#cbd5e1;line-height:1.8;font-size:0.95rem;}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;}
+.skill{background:#0f172a;color:#38bdf8;padding:6px 14px;border-radius:20px;font-size:0.85rem;border:1px solid #38bdf8;}
+.analysis-card{background:#1e293b;margin-bottom:36px;border-radius:14px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.4);border:1px solid #334155;}
+.analysis-card img{width:100%;display:block;}
+.analysis-content{padding:22px;}
+.analysis-content h3{color:#38bdf8;margin-bottom:12px;font-size:1rem;}
+.analysis-content p{color:#cbd5e1;line-height:1.7;font-size:0.93rem;}
+.back-btn{display:inline-block;margin-top:30px;background:#38bdf8;color:#0f172a;text-decoration:none;padding:12px 25px;border-radius:8px;font-weight:bold;transition:background 0.2s;}
+.back-btn:hover{background:#7dd3fc;}
 </style>
 </head>
-
 <body>
 
 <nav>
-    <a href="index.html">← Back to Portfolio</a>
+    <h2>Lakshmi Sowmya</h2>
+    <ul><li><a href="index.html">← Home</a></li></ul>
 </nav>
 
-<div class="container">
+<div class="project-container">
 
-<h1>Customer Sales Analytics Using Python</h1>
-
-<div class="project-description">
-
-<h2>Project Overview</h2>
-
-<p>
-This project demonstrates advanced data analysis using Python,
-Pandas and NumPy on a retail sales dataset containing over
-9,000 transactions.
-</p>
-
-<p>
-The objective was to analyze business performance,
-identify high-value customers, calculate key business KPIs,
-and generate meaningful insights from raw transactional data.
-</p>
-
+<div class="project-header">
+    <h1>Customer Sales Analytics Using Python</h1>
+    <p>Business KPI analysis, customer segmentation and sales analytics on 9,000+ transactions using Python, Pandas and NumPy.</p>
 </div>
 
-<h2 class="section-title">Project Screenshots</h2>
-
-<img src="projects/python-code.png"
-class="dashboard-image">
-
-<div class="card">
-
-<h3>Python Data Processing & Customer Segmentation</h3>
-
-<p>
-Loaded and validated retail sales data using Pandas.
-Performed KPI calculations and built customer segmentation
-logic to classify customers into VIP, Premium and Regular
-categories based on sales contribution.
-</p>
-
+<div class="info-box">
+    <h2>Project Overview</h2>
+    <p>This project demonstrates advanced data analysis on a retail sales dataset containing over 9,000 transactions. The objective was to analyse business performance, identify high-value customers, calculate key KPIs, and generate meaningful insights from raw transactional data using Python.</p>
 </div>
 
-<img src="projects/python-output.png"
-class="dashboard-image">
-
-<div class="card">
-
-<h3>Business KPI Summary & Customer Analysis</h3>
-
-<p>
-Generated key business metrics including Total Revenue,
-Total Profit, Total Orders and Total Customers.
-Identified top-performing customers and analyzed customer
-contribution to overall business revenue.
-</p>
-
+<div class="info-box">
+    <h2>Tools & Skills Used</h2>
+    <div class="skills">
+        <span class="skill">Python</span>
+        <span class="skill">Pandas</span>
+        <span class="skill">NumPy</span>
+        <span class="skill">Customer Segmentation</span>
+        <span class="skill">KPI Analysis</span>
+        <span class="skill">CSV Data Processing</span>
+        <span class="skill">VS Code</span>
+    </div>
 </div>
 
-<div class="card">
-
-<h3>Tools Used</h3>
-
-<ul>
-<li>Python</li>
-<li>Pandas</li>
-<li>NumPy</li>
-<li>CSV Data Processing</li>
-<li>VS Code</li>
-</ul>
-
+<div class="info-box">
+    <h2>Business Questions Solved</h2>
+    <ul>
+        <li>What are the total revenue, profit and order volumes for the business?</li>
+        <li>Who are the highest-value customers and what do they contribute?</li>
+        <li>How can customers be segmented into VIP, Premium and Regular tiers?</li>
+        <li>Which products and categories drive the most revenue?</li>
+    </ul>
 </div>
 
-<div class="card">
-
-<h3>Business Impact</h3>
-
-<ul>
-<li>Calculated Revenue & Profit KPIs</li>
-<li>Identified High Value Customers</li>
-<li>Built Customer Segmentation Logic</li>
-<li>Performed Data Aggregation & Analysis</li>
-<li>Generated Business Insights Using Python</li>
-</ul>
-
+<div class="analysis-card">
+    <img src="projects/python-code.png" alt="Python data processing code screenshot">
+    <div class="analysis-content">
+        <h3>Python Data Processing & Customer Segmentation</h3>
+        <p>Loaded and validated retail sales data using Pandas. Performed KPI calculations and built customer segmentation logic to classify customers into VIP, Premium and Regular categories based on sales contribution.</p>
+    </div>
 </div>
 
+<div class="analysis-card">
+    <img src="projects/python-output.png" alt="Python output and analysis results">
+    <div class="analysis-content">
+        <h3>Business KPI Summary & Customer Analysis</h3>
+        <p>Generated key business metrics including Total Revenue, Total Profit, Total Orders and Total Customers. Identified top-performing customers and analysed their contribution to overall business revenue.</p>
+    </div>
 </div>
 
+<div class="info-box">
+    <h2>Key Outcomes</h2>
+    <ul>
+        <li>Calculated Revenue & Profit KPIs across the full dataset.</li>
+        <li>Identified and ranked high-value customers by revenue contribution.</li>
+        <li>Built a repeatable customer segmentation model (VIP / Premium / Regular).</li>
+        <li>Performed data aggregation and ad-hoc analysis using Pandas groupby and filtering.</li>
+        <li>Generated structured business insights from raw transactional CSV data.</li>
+    </ul>
+</div>
+
+<a href="index.html" class="back-btn">← Back to Portfolio</a>
+
+</div>
 </body>
 </html>
