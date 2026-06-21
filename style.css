@@ -172,3 +172,51 @@ section h2 {
     .skill-card { min-width: 140px; }
     .contact-card { min-width: 100%; }
 }
+
+/* ── About two-column layout ── */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+}
+.about-left h2, .about-right h2 {
+    font-size: 1.5rem; margin: 0 0 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #1e293b;
+    color: #f1f5f9;
+}
+.about-left p {
+    line-height: 1.9; color: #cbd5e1;
+    font-size: 1rem; margin: 0;
+}
+
+/* ── Education cards (in about section) ── */
+.edu-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: #1e293b;
+    padding: 18px 20px;
+    border-radius: 12px;
+    border-left: 3px solid #38bdf8;
+    margin-bottom: 14px;
+}
+.edu-icon { font-size: 1.4rem; flex-shrink: 0; margin-top: 2px; }
+.edu-card h3 { margin: 0 0 4px; font-size: 1rem; color: #f1f5f9; }
+.edu-degree { color: #cbd5e1; font-size: 0.88rem; margin: 0 0 4px; }
+.edu-year { color: #38bdf8; font-size: 0.82rem; margin: 0; font-weight: 500; }
+
+/* ── Fix education section card border to blue (remove purple) ── */
+#education .card { border-left-color: #38bdf8; }
+
+/* ── GitHub SVG icon in contact card ── */
+.contact-card svg { display: block; }
+
+/* ── Responsive about grid ── */
+@media (max-width: 900px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
