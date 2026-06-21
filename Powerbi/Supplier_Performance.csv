@@ -1,0 +1,433 @@
+Year_Month,Supplier,Category,Committed_Qty,Delivered_Qty,Fulfillment_Rate_Pct,OnTime_Delivery_Pct,Defect_Rate_Pct
+2014-01,ElectroSupply,Technology,446,409,91.7,77.1,3.2
+2014-02,ElectroSupply,Technology,736,746,100.0,73.8,2.6
+2014-03,ElectroSupply,Technology,719,697,96.9,85.7,0.6
+2014-04,ElectroSupply,Technology,681,538,79.0,82.4,2.0
+2014-05,ElectroSupply,Technology,216,187,86.6,73.8,1.5
+2014-06,ElectroSupply,Technology,306,295,96.4,91.9,1.8
+2014-07,ElectroSupply,Technology,245,212,86.5,81.1,3.1
+2014-08,ElectroSupply,Technology,675,685,100.0,84.9,1.2
+2014-09,ElectroSupply,Technology,338,269,79.6,93.0,2.3
+2014-10,ElectroSupply,Technology,500,414,82.8,93.4,4.0
+2014-11,ElectroSupply,Technology,523,525,100.0,85.9,4.5
+2014-12,ElectroSupply,Technology,756,676,89.4,73.0,3.1
+2015-01,ElectroSupply,Technology,492,426,86.6,93.1,4.0
+2015-02,ElectroSupply,Technology,539,456,84.6,93.6,2.2
+2015-03,ElectroSupply,Technology,609,584,95.9,96.2,2.0
+2015-04,ElectroSupply,Technology,391,352,90.0,85.4,4.2
+2015-05,ElectroSupply,Technology,731,617,84.4,74.2,2.2
+2015-06,ElectroSupply,Technology,640,592,92.5,94.2,2.7
+2015-07,ElectroSupply,Technology,528,425,80.5,80.9,1.7
+2015-08,ElectroSupply,Technology,656,607,92.5,83.5,3.3
+2015-09,ElectroSupply,Technology,559,496,88.7,91.6,4.1
+2015-10,ElectroSupply,Technology,645,546,84.7,98.5,4.3
+2015-11,ElectroSupply,Technology,276,260,94.2,83.0,2.6
+2015-12,ElectroSupply,Technology,363,366,100.0,75.9,2.9
+2016-01,ElectroSupply,Technology,648,511,78.9,73.8,3.6
+2016-02,ElectroSupply,Technology,575,498,86.6,97.6,0.6
+2016-03,ElectroSupply,Technology,357,337,94.4,97.6,2.0
+2016-04,ElectroSupply,Technology,278,255,91.7,86.3,2.1
+2016-05,ElectroSupply,Technology,485,407,83.9,75.1,3.4
+2016-06,ElectroSupply,Technology,711,643,90.4,96.7,1.0
+2016-07,ElectroSupply,Technology,466,442,94.8,77.8,2.9
+2016-08,ElectroSupply,Technology,702,581,82.8,75.7,0.8
+2016-09,ElectroSupply,Technology,376,374,99.5,84.0,0.9
+2016-10,ElectroSupply,Technology,527,496,94.1,91.2,2.7
+2016-11,ElectroSupply,Technology,497,494,99.4,95.0,3.3
+2016-12,ElectroSupply,Technology,378,367,97.1,85.7,1.0
+2017-01,ElectroSupply,Technology,405,393,97.0,78.4,2.5
+2017-02,ElectroSupply,Technology,569,519,91.2,82.0,3.7
+2017-03,ElectroSupply,Technology,764,620,81.2,95.9,0.8
+2017-04,ElectroSupply,Technology,607,619,100.0,91.4,2.6
+2017-05,ElectroSupply,Technology,619,605,97.7,74.0,4.4
+2017-06,ElectroSupply,Technology,275,244,88.7,90.4,1.9
+2017-07,ElectroSupply,Technology,764,713,93.3,76.9,4.4
+2017-08,ElectroSupply,Technology,643,579,90.0,95.4,3.8
+2017-09,ElectroSupply,Technology,730,596,81.6,76.4,1.8
+2017-10,ElectroSupply,Technology,430,371,86.3,97.4,4.1
+2017-11,ElectroSupply,Technology,280,235,83.9,89.1,2.7
+2017-12,ElectroSupply,Technology,328,305,93.0,88.6,0.9
+2014-01,FurniCo Ltd,Furniture,372,343,92.2,87.7,1.2
+2014-02,FurniCo Ltd,Furniture,545,535,98.2,87.2,3.8
+2014-03,FurniCo Ltd,Furniture,229,183,79.9,97.6,3.6
+2014-04,FurniCo Ltd,Furniture,471,441,93.6,92.7,2.2
+2014-05,FurniCo Ltd,Furniture,231,208,90.0,88.9,1.7
+2014-06,FurniCo Ltd,Furniture,509,456,89.6,93.7,3.2
+2014-07,FurniCo Ltd,Furniture,504,448,88.9,90.6,1.1
+2014-08,FurniCo Ltd,Furniture,625,560,89.6,77.5,2.9
+2014-09,FurniCo Ltd,Furniture,520,513,98.7,80.6,4.5
+2014-10,FurniCo Ltd,Furniture,553,561,100.0,75.5,2.0
+2014-11,FurniCo Ltd,Furniture,775,624,80.5,78.5,1.0
+2014-12,FurniCo Ltd,Furniture,660,554,83.9,74.6,1.7
+2015-01,FurniCo Ltd,Furniture,593,586,98.8,83.3,4.4
+2015-02,FurniCo Ltd,Furniture,363,354,97.5,97.2,3.4
+2015-03,FurniCo Ltd,Furniture,394,379,96.2,85.5,2.6
+2015-04,FurniCo Ltd,Furniture,710,704,99.2,85.4,0.9
+2015-05,FurniCo Ltd,Furniture,602,543,90.2,98.1,1.4
+2015-06,FurniCo Ltd,Furniture,561,444,79.1,79.6,2.9
+2015-07,FurniCo Ltd,Furniture,681,578,84.9,72.2,0.9
+2015-08,FurniCo Ltd,Furniture,337,334,99.1,91.6,3.6
+2015-09,FurniCo Ltd,Furniture,574,454,79.1,73.4,2.7
+2015-10,FurniCo Ltd,Furniture,571,521,91.2,74.0,2.5
+2015-11,FurniCo Ltd,Furniture,763,646,84.7,98.7,3.2
+2015-12,FurniCo Ltd,Furniture,321,260,81.0,74.6,2.0
+2016-01,FurniCo Ltd,Furniture,547,500,91.4,81.9,1.1
+2016-02,FurniCo Ltd,Furniture,721,632,87.7,73.1,0.7
+2016-03,FurniCo Ltd,Furniture,541,526,97.2,86.0,1.1
+2016-04,FurniCo Ltd,Furniture,727,591,81.3,97.1,1.8
+2016-05,FurniCo Ltd,Furniture,602,613,100.0,92.0,1.7
+2016-06,FurniCo Ltd,Furniture,544,491,90.3,85.8,2.5
+2016-07,FurniCo Ltd,Furniture,776,661,85.2,94.0,2.0
+2016-08,FurniCo Ltd,Furniture,312,317,100.0,87.8,3.7
+2016-09,FurniCo Ltd,Furniture,227,210,92.5,79.2,3.1
+2016-10,FurniCo Ltd,Furniture,792,728,91.9,91.5,2.8
+2016-11,FurniCo Ltd,Furniture,374,339,90.6,91.5,3.6
+2016-12,FurniCo Ltd,Furniture,589,480,81.5,90.4,0.6
+2017-01,FurniCo Ltd,Furniture,312,258,82.7,83.9,2.2
+2017-02,FurniCo Ltd,Furniture,622,588,94.5,83.1,3.6
+2017-03,FurniCo Ltd,Furniture,682,675,99.0,91.9,0.7
+2017-04,FurniCo Ltd,Furniture,341,308,90.3,87.1,4.5
+2017-05,FurniCo Ltd,Furniture,689,624,90.6,80.5,1.2
+2017-06,FurniCo Ltd,Furniture,745,642,86.2,81.6,3.6
+2017-07,FurniCo Ltd,Furniture,470,435,92.6,77.2,1.5
+2017-08,FurniCo Ltd,Furniture,771,657,85.2,97.4,4.4
+2017-09,FurniCo Ltd,Furniture,495,470,94.9,90.6,2.5
+2017-10,FurniCo Ltd,Furniture,691,597,86.4,97.2,3.7
+2017-11,FurniCo Ltd,Furniture,480,408,85.0,87.5,2.7
+2017-12,FurniCo Ltd,Furniture,604,590,97.7,97.8,3.7
+2014-01,Office Interiors Inc,Furniture,497,393,79.1,97.8,0.8
+2014-02,Office Interiors Inc,Furniture,652,611,93.7,92.2,1.4
+2014-03,Office Interiors Inc,Furniture,751,635,84.6,87.2,1.6
+2014-04,Office Interiors Inc,Furniture,311,289,92.9,87.8,1.5
+2014-05,Office Interiors Inc,Furniture,743,620,83.4,78.3,0.9
+2014-06,Office Interiors Inc,Furniture,538,512,95.2,74.7,3.6
+2014-07,Office Interiors Inc,Furniture,205,207,100.0,98.4,1.1
+2014-08,Office Interiors Inc,Furniture,687,615,89.5,77.4,4.4
+2014-09,Office Interiors Inc,Furniture,528,448,84.8,73.6,3.6
+2014-10,Office Interiors Inc,Furniture,787,658,83.6,91.9,3.9
+2014-11,Office Interiors Inc,Furniture,238,238,100.0,76.7,4.0
+2014-12,Office Interiors Inc,Furniture,380,382,100.0,73.0,3.8
+2015-01,Office Interiors Inc,Furniture,707,583,82.5,92.2,4.0
+2015-02,Office Interiors Inc,Furniture,496,491,99.0,72.3,2.8
+2015-03,Office Interiors Inc,Furniture,309,310,100.0,81.0,2.3
+2015-04,Office Interiors Inc,Furniture,756,685,90.6,96.0,1.0
+2015-05,Office Interiors Inc,Furniture,716,639,89.2,77.2,1.0
+2015-06,Office Interiors Inc,Furniture,366,350,95.6,89.5,3.4
+2015-07,Office Interiors Inc,Furniture,214,205,95.8,93.4,2.8
+2015-08,Office Interiors Inc,Furniture,397,326,82.1,95.1,4.1
+2015-09,Office Interiors Inc,Furniture,637,576,90.4,74.3,3.2
+2015-10,Office Interiors Inc,Furniture,389,395,100.0,84.9,4.2
+2015-11,Office Interiors Inc,Furniture,206,174,84.5,78.4,3.5
+2015-12,Office Interiors Inc,Furniture,537,458,85.3,91.5,0.5
+2016-01,Office Interiors Inc,Furniture,568,537,94.5,73.7,1.0
+2016-02,Office Interiors Inc,Furniture,514,421,81.9,90.5,4.2
+2016-03,Office Interiors Inc,Furniture,518,490,94.6,89.2,4.3
+2016-04,Office Interiors Inc,Furniture,576,534,92.7,77.9,1.0
+2016-05,Office Interiors Inc,Furniture,356,317,89.0,98.7,2.0
+2016-06,Office Interiors Inc,Furniture,762,761,99.9,92.4,3.7
+2016-07,Office Interiors Inc,Furniture,423,407,96.2,90.4,2.9
+2016-08,Office Interiors Inc,Furniture,283,256,90.5,86.3,1.9
+2016-09,Office Interiors Inc,Furniture,777,627,80.7,94.4,4.1
+2016-10,Office Interiors Inc,Furniture,407,373,91.6,76.0,1.8
+2016-11,Office Interiors Inc,Furniture,732,649,88.7,90.4,3.4
+2016-12,Office Interiors Inc,Furniture,700,561,80.1,85.8,3.7
+2017-01,Office Interiors Inc,Furniture,664,539,81.2,83.2,2.8
+2017-02,Office Interiors Inc,Furniture,772,688,89.1,93.8,3.4
+2017-03,Office Interiors Inc,Furniture,605,509,84.1,72.1,1.4
+2017-04,Office Interiors Inc,Furniture,274,217,79.2,81.3,0.8
+2017-05,Office Interiors Inc,Furniture,261,262,100.0,73.9,4.2
+2017-06,Office Interiors Inc,Furniture,232,197,84.9,76.9,1.0
+2017-07,Office Interiors Inc,Furniture,630,548,87.0,96.1,2.3
+2017-08,Office Interiors Inc,Furniture,586,510,87.0,90.4,3.1
+2017-09,Office Interiors Inc,Furniture,752,611,81.2,95.2,1.0
+2017-10,Office Interiors Inc,Furniture,750,656,87.5,75.4,4.4
+2017-11,Office Interiors Inc,Furniture,203,195,96.1,98.4,2.4
+2017-12,Office Interiors Inc,Furniture,757,668,88.2,82.2,1.4
+2014-01,StatSource,Office Supplies,671,579,86.3,79.4,4.2
+2014-02,StatSource,Office Supplies,315,248,78.7,89.8,3.0
+2014-03,StatSource,Office Supplies,216,181,83.8,73.8,2.9
+2014-04,StatSource,Office Supplies,657,607,92.4,91.0,0.7
+2014-05,StatSource,Office Supplies,245,215,87.8,78.3,1.4
+2014-06,StatSource,Office Supplies,257,209,81.3,98.8,1.4
+2014-07,StatSource,Office Supplies,789,676,85.7,88.1,3.2
+2014-08,StatSource,Office Supplies,528,442,83.7,95.7,4.4
+2014-09,StatSource,Office Supplies,733,611,83.4,80.1,0.7
+2014-10,StatSource,Office Supplies,379,353,93.1,83.5,2.5
+2014-11,StatSource,Office Supplies,552,555,100.0,90.1,3.6
+2014-12,StatSource,Office Supplies,526,498,94.7,83.0,1.7
+2015-01,StatSource,Office Supplies,388,373,96.1,84.8,3.9
+2015-02,StatSource,Office Supplies,507,500,98.6,75.9,2.4
+2015-03,StatSource,Office Supplies,259,237,91.5,98.1,2.7
+2015-04,StatSource,Office Supplies,337,294,87.2,78.9,1.8
+2015-05,StatSource,Office Supplies,280,280,100.0,94.9,0.9
+2015-06,StatSource,Office Supplies,395,313,79.2,82.2,2.9
+2015-07,StatSource,Office Supplies,240,238,99.2,77.1,3.5
+2015-08,StatSource,Office Supplies,772,642,83.2,77.6,4.1
+2015-09,StatSource,Office Supplies,510,515,100.0,72.4,4.2
+2015-10,StatSource,Office Supplies,320,307,95.9,92.4,4.2
+2015-11,StatSource,Office Supplies,409,358,87.5,78.5,1.8
+2015-12,StatSource,Office Supplies,489,426,87.1,86.4,1.9
+2016-01,StatSource,Office Supplies,467,405,86.7,95.8,2.4
+2016-02,StatSource,Office Supplies,680,655,96.3,80.6,1.3
+2016-03,StatSource,Office Supplies,520,457,87.9,87.2,1.4
+2016-04,StatSource,Office Supplies,349,274,78.5,86.9,2.8
+2016-05,StatSource,Office Supplies,627,533,85.0,77.3,1.4
+2016-06,StatSource,Office Supplies,783,767,98.0,85.5,3.1
+2016-07,StatSource,Office Supplies,545,459,84.2,94.2,4.4
+2016-08,StatSource,Office Supplies,702,625,89.0,91.8,1.9
+2016-09,StatSource,Office Supplies,343,327,95.3,85.2,4.2
+2016-10,StatSource,Office Supplies,755,768,100.0,97.8,2.6
+2016-11,StatSource,Office Supplies,276,278,100.0,90.0,3.6
+2016-12,StatSource,Office Supplies,622,506,81.4,89.0,0.8
+2017-01,StatSource,Office Supplies,354,277,78.2,85.7,2.0
+2017-02,StatSource,Office Supplies,694,651,93.8,72.4,2.6
+2017-03,StatSource,Office Supplies,621,486,78.3,86.3,1.6
+2017-04,StatSource,Office Supplies,493,387,78.5,94.0,3.2
+2017-05,StatSource,Office Supplies,383,309,80.7,74.6,1.1
+2017-06,StatSource,Office Supplies,396,368,92.9,78.8,1.9
+2017-07,StatSource,Office Supplies,606,484,79.9,97.9,2.3
+2017-08,StatSource,Office Supplies,449,457,100.0,78.1,3.2
+2017-09,StatSource,Office Supplies,282,264,93.6,95.2,3.5
+2017-10,StatSource,Office Supplies,295,259,87.8,82.2,2.4
+2017-11,StatSource,Office Supplies,209,198,94.7,74.2,3.9
+2017-12,StatSource,Office Supplies,539,494,91.7,95.2,0.9
+2014-01,WoodCraft Suppliers,Furniture,740,740,100.0,78.2,4.1
+2014-02,WoodCraft Suppliers,Furniture,780,697,89.4,73.3,0.8
+2014-03,WoodCraft Suppliers,Furniture,487,485,99.6,87.2,0.6
+2014-04,WoodCraft Suppliers,Furniture,522,409,78.4,77.6,1.1
+2014-05,WoodCraft Suppliers,Furniture,607,609,100.0,80.1,2.8
+2014-06,WoodCraft Suppliers,Furniture,780,765,98.1,82.5,4.1
+2014-07,WoodCraft Suppliers,Furniture,539,470,87.2,92.0,3.7
+2014-08,WoodCraft Suppliers,Furniture,280,252,90.0,98.3,0.7
+2014-09,WoodCraft Suppliers,Furniture,647,541,83.6,74.1,2.9
+2014-10,WoodCraft Suppliers,Furniture,606,614,100.0,80.8,3.0
+2014-11,WoodCraft Suppliers,Furniture,661,593,89.7,81.6,4.3
+2014-12,WoodCraft Suppliers,Furniture,642,529,82.4,87.8,2.0
+2015-01,WoodCraft Suppliers,Furniture,502,488,97.2,91.3,0.8
+2015-02,WoodCraft Suppliers,Furniture,357,311,87.1,93.2,1.1
+2015-03,WoodCraft Suppliers,Furniture,598,512,85.6,74.9,0.5
+2015-04,WoodCraft Suppliers,Furniture,515,457,88.7,92.6,0.9
+2015-05,WoodCraft Suppliers,Furniture,289,238,82.4,84.1,2.7
+2015-06,WoodCraft Suppliers,Furniture,617,497,80.6,74.4,2.7
+2015-07,WoodCraft Suppliers,Furniture,532,525,98.7,72.3,2.2
+2015-08,WoodCraft Suppliers,Furniture,286,273,95.5,87.1,4.5
+2015-09,WoodCraft Suppliers,Furniture,448,411,91.7,76.6,2.0
+2015-10,WoodCraft Suppliers,Furniture,342,289,84.5,79.2,1.1
+2015-11,WoodCraft Suppliers,Furniture,371,328,88.4,83.4,2.4
+2015-12,WoodCraft Suppliers,Furniture,278,241,86.7,97.5,3.4
+2016-01,WoodCraft Suppliers,Furniture,707,652,92.2,77.3,0.9
+2016-02,WoodCraft Suppliers,Furniture,511,399,78.1,82.7,3.9
+2016-03,WoodCraft Suppliers,Furniture,589,573,97.3,80.9,1.8
+2016-04,WoodCraft Suppliers,Furniture,339,289,85.3,88.3,3.3
+2016-05,WoodCraft Suppliers,Furniture,690,590,85.5,98.0,4.4
+2016-06,WoodCraft Suppliers,Furniture,498,476,95.6,89.1,4.4
+2016-07,WoodCraft Suppliers,Furniture,448,384,85.7,79.6,3.6
+2016-08,WoodCraft Suppliers,Furniture,573,463,80.8,87.2,2.9
+2016-09,WoodCraft Suppliers,Furniture,758,624,82.3,92.7,0.6
+2016-10,WoodCraft Suppliers,Furniture,672,676,100.0,77.7,3.7
+2016-11,WoodCraft Suppliers,Furniture,270,264,97.8,93.5,2.1
+2016-12,WoodCraft Suppliers,Furniture,711,578,81.3,80.2,1.5
+2017-01,WoodCraft Suppliers,Furniture,357,340,95.2,93.3,0.8
+2017-02,WoodCraft Suppliers,Furniture,690,635,92.0,86.4,4.2
+2017-03,WoodCraft Suppliers,Furniture,628,572,91.1,93.3,1.9
+2017-04,WoodCraft Suppliers,Furniture,749,691,92.3,96.7,0.9
+2017-05,WoodCraft Suppliers,Furniture,454,426,93.8,81.6,3.1
+2017-06,WoodCraft Suppliers,Furniture,245,224,91.4,89.4,3.1
+2017-07,WoodCraft Suppliers,Furniture,539,545,100.0,83.6,0.5
+2017-08,WoodCraft Suppliers,Furniture,464,387,83.4,92.2,2.7
+2017-09,WoodCraft Suppliers,Furniture,789,657,83.3,82.1,2.4
+2017-10,WoodCraft Suppliers,Furniture,712,581,81.6,98.9,2.4
+2017-11,WoodCraft Suppliers,Furniture,502,442,88.0,98.0,1.0
+2017-12,WoodCraft Suppliers,Furniture,345,298,86.4,81.3,3.6
+2014-01,GadgetSource Inc,Technology,733,657,89.6,84.9,2.3
+2014-02,GadgetSource Inc,Technology,663,568,85.7,80.1,3.7
+2014-03,GadgetSource Inc,Technology,317,249,78.5,81.3,0.9
+2014-04,GadgetSource Inc,Technology,368,369,100.0,92.0,2.6
+2014-05,GadgetSource Inc,Technology,765,626,81.8,87.1,4.3
+2014-06,GadgetSource Inc,Technology,437,425,97.3,89.0,1.2
+2014-07,GadgetSource Inc,Technology,642,562,87.5,91.9,4.0
+2014-08,GadgetSource Inc,Technology,660,609,92.3,82.5,3.3
+2014-09,GadgetSource Inc,Technology,410,347,84.6,91.0,3.7
+2014-10,GadgetSource Inc,Technology,791,636,80.4,95.5,1.2
+2014-11,GadgetSource Inc,Technology,533,441,82.7,75.1,3.2
+2014-12,GadgetSource Inc,Technology,701,636,90.7,89.3,2.9
+2015-01,GadgetSource Inc,Technology,601,553,92.0,81.4,3.9
+2015-02,GadgetSource Inc,Technology,376,367,97.6,91.1,1.7
+2015-03,GadgetSource Inc,Technology,286,269,94.1,80.5,1.5
+2015-04,GadgetSource Inc,Technology,319,263,82.4,90.7,2.5
+2015-05,GadgetSource Inc,Technology,628,580,92.4,87.5,2.2
+2015-06,GadgetSource Inc,Technology,698,651,93.3,90.7,3.1
+2015-07,GadgetSource Inc,Technology,377,344,91.2,85.2,1.1
+2015-08,GadgetSource Inc,Technology,522,513,98.3,88.7,4.0
+2015-09,GadgetSource Inc,Technology,209,187,89.5,77.3,2.0
+2015-10,GadgetSource Inc,Technology,775,699,90.2,85.4,3.2
+2015-11,GadgetSource Inc,Technology,625,594,95.0,84.0,1.2
+2015-12,GadgetSource Inc,Technology,778,613,78.8,92.5,1.7
+2016-01,GadgetSource Inc,Technology,481,401,83.4,79.8,3.6
+2016-02,GadgetSource Inc,Technology,779,746,95.8,92.7,2.7
+2016-03,GadgetSource Inc,Technology,315,289,91.7,79.2,2.7
+2016-04,GadgetSource Inc,Technology,575,523,91.0,92.4,3.5
+2016-05,GadgetSource Inc,Technology,651,593,91.1,98.7,0.9
+2016-06,GadgetSource Inc,Technology,453,386,85.2,99.0,2.3
+2016-07,GadgetSource Inc,Technology,556,549,98.7,74.3,4.0
+2016-08,GadgetSource Inc,Technology,320,309,96.6,78.4,3.7
+2016-09,GadgetSource Inc,Technology,559,552,98.7,88.5,2.2
+2016-10,GadgetSource Inc,Technology,342,331,96.8,94.0,3.7
+2016-11,GadgetSource Inc,Technology,783,677,86.5,79.6,2.7
+2016-12,GadgetSource Inc,Technology,531,539,100.0,79.9,2.8
+2017-01,GadgetSource Inc,Technology,726,738,100.0,90.3,0.9
+2017-02,GadgetSource Inc,Technology,621,621,100.0,98.8,4.0
+2017-03,GadgetSource Inc,Technology,329,312,94.8,75.6,1.1
+2017-04,GadgetSource Inc,Technology,529,518,97.9,92.6,3.2
+2017-05,GadgetSource Inc,Technology,701,571,81.5,89.1,3.0
+2017-06,GadgetSource Inc,Technology,584,519,88.9,89.1,4.0
+2017-07,GadgetSource Inc,Technology,295,259,87.8,92.2,3.3
+2017-08,GadgetSource Inc,Technology,577,513,88.9,85.2,2.8
+2017-09,GadgetSource Inc,Technology,295,282,95.6,84.4,3.2
+2017-10,GadgetSource Inc,Technology,566,557,98.4,93.5,2.1
+2017-11,GadgetSource Inc,Technology,639,625,97.8,85.4,1.8
+2017-12,GadgetSource Inc,Technology,490,422,86.1,87.6,2.8
+2014-01,TechParts Global,Technology,696,675,97.0,96.1,3.5
+2014-02,TechParts Global,Technology,247,199,80.6,93.2,2.3
+2014-03,TechParts Global,Technology,327,328,100.0,76.3,2.3
+2014-04,TechParts Global,Technology,638,529,82.9,90.6,1.0
+2014-05,TechParts Global,Technology,509,416,81.7,97.2,1.6
+2014-06,TechParts Global,Technology,569,478,84.0,82.0,4.1
+2014-07,TechParts Global,Technology,369,292,79.1,88.9,3.4
+2014-08,TechParts Global,Technology,439,388,88.4,74.5,0.9
+2014-09,TechParts Global,Technology,418,374,89.5,75.6,1.4
+2014-10,TechParts Global,Technology,655,512,78.2,90.8,3.8
+2014-11,TechParts Global,Technology,632,598,94.6,84.9,1.4
+2014-12,TechParts Global,Technology,291,278,95.5,74.8,1.8
+2015-01,TechParts Global,Technology,506,411,81.2,92.9,3.5
+2015-02,TechParts Global,Technology,336,314,93.5,90.3,0.8
+2015-03,TechParts Global,Technology,776,607,78.2,89.6,2.3
+2015-04,TechParts Global,Technology,418,389,93.1,76.1,2.1
+2015-05,TechParts Global,Technology,653,644,98.6,74.3,0.9
+2015-06,TechParts Global,Technology,326,300,92.0,82.4,4.4
+2015-07,TechParts Global,Technology,522,506,96.9,78.7,3.1
+2015-08,TechParts Global,Technology,454,414,91.2,88.2,2.9
+2015-09,TechParts Global,Technology,227,223,98.2,89.8,1.7
+2015-10,TechParts Global,Technology,730,676,92.6,77.1,2.1
+2015-11,TechParts Global,Technology,255,247,96.9,93.4,1.5
+2015-12,TechParts Global,Technology,595,480,80.7,85.5,2.9
+2016-01,TechParts Global,Technology,740,735,99.3,72.3,1.9
+2016-02,TechParts Global,Technology,524,425,81.1,95.2,2.8
+2016-03,TechParts Global,Technology,574,523,91.1,76.7,2.4
+2016-04,TechParts Global,Technology,274,215,78.5,73.8,1.5
+2016-05,TechParts Global,Technology,240,240,100.0,97.6,2.1
+2016-06,TechParts Global,Technology,493,459,93.1,85.5,2.2
+2016-07,TechParts Global,Technology,611,489,80.0,86.5,3.0
+2016-08,TechParts Global,Technology,484,387,80.0,74.1,4.2
+2016-09,TechParts Global,Technology,359,326,90.8,82.5,3.0
+2016-10,TechParts Global,Technology,267,228,85.4,83.8,4.3
+2016-11,TechParts Global,Technology,444,352,79.3,74.3,2.2
+2016-12,TechParts Global,Technology,664,615,92.6,73.5,3.2
+2017-01,TechParts Global,Technology,379,306,80.7,91.1,3.3
+2017-02,TechParts Global,Technology,367,330,89.9,81.4,2.6
+2017-03,TechParts Global,Technology,465,381,81.9,75.4,3.6
+2017-04,TechParts Global,Technology,475,454,95.6,75.2,4.1
+2017-05,TechParts Global,Technology,543,529,97.4,79.3,0.8
+2017-06,TechParts Global,Technology,790,735,93.0,85.4,2.5
+2017-07,TechParts Global,Technology,256,230,89.8,87.3,2.0
+2017-08,TechParts Global,Technology,461,445,96.5,96.1,3.2
+2017-09,TechParts Global,Technology,318,265,83.3,85.7,0.7
+2017-10,TechParts Global,Technology,212,178,84.0,84.7,2.0
+2017-11,TechParts Global,Technology,353,291,82.4,97.9,0.6
+2017-12,TechParts Global,Technology,629,525,83.5,78.7,4.2
+2014-01,PaperWorld Co,Office Supplies,527,445,84.4,74.1,2.0
+2014-02,PaperWorld Co,Office Supplies,714,672,94.1,73.4,1.4
+2014-03,PaperWorld Co,Office Supplies,728,739,100.0,97.8,0.8
+2014-04,PaperWorld Co,Office Supplies,676,668,98.8,92.9,1.7
+2014-05,PaperWorld Co,Office Supplies,288,263,91.3,72.2,1.3
+2014-06,PaperWorld Co,Office Supplies,777,752,96.8,92.0,1.5
+2014-07,PaperWorld Co,Office Supplies,577,532,92.2,85.3,3.6
+2014-08,PaperWorld Co,Office Supplies,400,382,95.5,86.8,3.7
+2014-09,PaperWorld Co,Office Supplies,354,277,78.2,83.1,1.4
+2014-10,PaperWorld Co,Office Supplies,554,517,93.3,90.7,0.5
+2014-11,PaperWorld Co,Office Supplies,543,424,78.1,89.7,3.9
+2014-12,PaperWorld Co,Office Supplies,514,414,80.5,86.3,1.5
+2015-01,PaperWorld Co,Office Supplies,703,711,100.0,98.3,1.1
+2015-02,PaperWorld Co,Office Supplies,486,390,80.2,96.9,4.1
+2015-03,PaperWorld Co,Office Supplies,732,644,88.0,96.2,2.3
+2015-04,PaperWorld Co,Office Supplies,286,263,92.0,85.6,3.0
+2015-05,PaperWorld Co,Office Supplies,603,481,79.8,87.3,2.2
+2015-06,PaperWorld Co,Office Supplies,333,279,83.8,79.0,1.8
+2015-07,PaperWorld Co,Office Supplies,602,571,94.9,91.9,1.8
+2015-08,PaperWorld Co,Office Supplies,478,400,83.7,97.5,1.0
+2015-09,PaperWorld Co,Office Supplies,798,643,80.6,74.9,2.3
+2015-10,PaperWorld Co,Office Supplies,521,457,87.7,86.5,4.4
+2015-11,PaperWorld Co,Office Supplies,412,366,88.8,84.5,3.9
+2015-12,PaperWorld Co,Office Supplies,292,239,81.8,90.5,3.8
+2016-01,PaperWorld Co,Office Supplies,241,200,83.0,95.1,1.1
+2016-02,PaperWorld Co,Office Supplies,454,460,100.0,82.7,0.7
+2016-03,PaperWorld Co,Office Supplies,506,426,84.2,98.7,0.6
+2016-04,PaperWorld Co,Office Supplies,614,605,98.5,87.0,2.7
+2016-05,PaperWorld Co,Office Supplies,296,264,89.2,93.7,1.1
+2016-06,PaperWorld Co,Office Supplies,212,168,79.2,93.1,1.4
+2016-07,PaperWorld Co,Office Supplies,402,393,97.8,82.1,3.0
+2016-08,PaperWorld Co,Office Supplies,286,263,92.0,79.0,3.8
+2016-09,PaperWorld Co,Office Supplies,222,226,100.0,77.3,3.1
+2016-10,PaperWorld Co,Office Supplies,331,265,80.1,94.9,3.7
+2016-11,PaperWorld Co,Office Supplies,325,257,79.1,84.4,1.2
+2016-12,PaperWorld Co,Office Supplies,787,696,88.4,91.6,2.5
+2017-01,PaperWorld Co,Office Supplies,591,558,94.4,76.7,1.4
+2017-02,PaperWorld Co,Office Supplies,391,331,84.7,84.0,1.1
+2017-03,PaperWorld Co,Office Supplies,451,422,93.6,85.5,4.0
+2017-04,PaperWorld Co,Office Supplies,690,548,79.4,79.6,1.0
+2017-05,PaperWorld Co,Office Supplies,404,377,93.3,93.5,1.5
+2017-06,PaperWorld Co,Office Supplies,756,734,97.1,98.7,3.6
+2017-07,PaperWorld Co,Office Supplies,567,508,89.6,93.1,1.9
+2017-08,PaperWorld Co,Office Supplies,779,702,90.1,82.5,1.2
+2017-09,PaperWorld Co,Office Supplies,526,486,92.4,72.8,3.7
+2017-10,PaperWorld Co,Office Supplies,487,387,79.5,98.8,2.6
+2017-11,PaperWorld Co,Office Supplies,798,814,100.0,98.3,0.9
+2017-12,PaperWorld Co,Office Supplies,446,376,84.3,94.0,4.2
+2014-01,SupplyHub,Office Supplies,257,248,96.5,97.6,2.8
+2014-02,SupplyHub,Office Supplies,597,516,86.4,94.7,3.9
+2014-03,SupplyHub,Office Supplies,380,318,83.7,80.6,3.5
+2014-04,SupplyHub,Office Supplies,567,567,100.0,72.8,3.3
+2014-05,SupplyHub,Office Supplies,781,715,91.5,87.2,1.3
+2014-06,SupplyHub,Office Supplies,704,641,91.1,76.7,0.7
+2014-07,SupplyHub,Office Supplies,257,215,83.7,77.9,2.6
+2014-08,SupplyHub,Office Supplies,200,172,86.0,88.6,3.7
+2014-09,SupplyHub,Office Supplies,548,522,95.3,96.8,3.9
+2014-10,SupplyHub,Office Supplies,531,422,79.5,76.0,3.3
+2014-11,SupplyHub,Office Supplies,345,333,96.5,94.9,3.9
+2014-12,SupplyHub,Office Supplies,274,238,86.9,97.4,2.1
+2015-01,SupplyHub,Office Supplies,303,261,86.1,80.7,4.4
+2015-02,SupplyHub,Office Supplies,647,628,97.1,97.9,3.1
+2015-03,SupplyHub,Office Supplies,378,359,95.0,87.2,4.1
+2015-04,SupplyHub,Office Supplies,565,471,83.4,87.9,1.2
+2015-05,SupplyHub,Office Supplies,514,491,95.5,80.0,1.2
+2015-06,SupplyHub,Office Supplies,201,203,100.0,97.6,2.1
+2015-07,SupplyHub,Office Supplies,781,615,78.7,88.3,4.2
+2015-08,SupplyHub,Office Supplies,426,398,93.4,74.8,2.5
+2015-09,SupplyHub,Office Supplies,539,517,95.9,78.4,4.4
+2015-10,SupplyHub,Office Supplies,371,346,93.3,98.0,3.8
+2015-11,SupplyHub,Office Supplies,543,482,88.8,79.2,1.5
+2015-12,SupplyHub,Office Supplies,269,232,86.2,93.2,3.4
+2016-01,SupplyHub,Office Supplies,249,217,87.1,91.8,4.4
+2016-02,SupplyHub,Office Supplies,623,560,89.9,82.2,2.7
+2016-03,SupplyHub,Office Supplies,303,297,98.0,93.3,2.8
+2016-04,SupplyHub,Office Supplies,430,352,81.9,74.0,3.9
+2016-05,SupplyHub,Office Supplies,501,393,78.4,79.1,0.9
+2016-06,SupplyHub,Office Supplies,550,451,82.0,82.1,3.4
+2016-07,SupplyHub,Office Supplies,760,765,100.0,98.4,1.9
+2016-08,SupplyHub,Office Supplies,694,659,95.0,83.6,3.1
+2016-09,SupplyHub,Office Supplies,644,527,81.8,74.7,1.3
+2016-10,SupplyHub,Office Supplies,394,346,87.8,87.0,4.2
+2016-11,SupplyHub,Office Supplies,753,635,84.3,79.6,1.5
+2016-12,SupplyHub,Office Supplies,250,219,87.6,86.8,2.5
+2017-01,SupplyHub,Office Supplies,255,221,86.7,83.5,1.7
+2017-02,SupplyHub,Office Supplies,691,572,82.8,72.7,1.2
+2017-03,SupplyHub,Office Supplies,498,505,100.0,84.8,1.0
+2017-04,SupplyHub,Office Supplies,607,542,89.3,96.2,1.6
+2017-05,SupplyHub,Office Supplies,757,661,87.3,82.0,2.0
+2017-06,SupplyHub,Office Supplies,391,347,88.7,79.1,2.4
+2017-07,SupplyHub,Office Supplies,431,423,98.1,87.2,1.1
+2017-08,SupplyHub,Office Supplies,299,239,79.9,81.3,2.7
+2017-09,SupplyHub,Office Supplies,432,394,91.2,94.7,3.8
+2017-10,SupplyHub,Office Supplies,628,635,100.0,90.6,4.2
+2017-11,SupplyHub,Office Supplies,786,779,99.1,84.9,0.8
+2017-12,SupplyHub,Office Supplies,235,212,90.2,96.3,3.7

@@ -1,0 +1,69 @@
+Region,Category,Sub_Category,Stock_Level,Safety_Stock,Reorder_Point,Inventory_Status,Supplier,Lead_Time_Days
+Central,Furniture,Bookcases,166,46,75,Healthy,FurniCo Ltd,4
+East,Furniture,Bookcases,163,74,122,Healthy,Office Interiors Inc,16
+South,Furniture,Bookcases,577,117,165,Healthy,WoodCraft Suppliers,11
+West,Furniture,Bookcases,300,105,132,Healthy,WoodCraft Suppliers,16
+Central,Furniture,Chairs,193,76,133,Healthy,WoodCraft Suppliers,19
+East,Furniture,Chairs,395,45,79,Healthy,WoodCraft Suppliers,4
+South,Furniture,Chairs,87,66,105,Low,FurniCo Ltd,7
+West,Furniture,Chairs,341,77,117,Healthy,FurniCo Ltd,3
+Central,Furniture,Tables,589,95,126,Healthy,FurniCo Ltd,15
+East,Furniture,Tables,315,104,159,Healthy,Office Interiors Inc,14
+South,Furniture,Tables,153,90,112,Healthy,WoodCraft Suppliers,3
+West,Furniture,Tables,550,49,89,Healthy,Office Interiors Inc,16
+Central,Furniture,Furnishings,494,93,131,Healthy,FurniCo Ltd,15
+East,Furniture,Furnishings,101,81,111,Low,Office Interiors Inc,17
+South,Furniture,Furnishings,450,51,98,Healthy,FurniCo Ltd,10
+West,Furniture,Furnishings,526,115,160,Healthy,Office Interiors Inc,5
+Central,Office Supplies,Binders,485,79,120,Healthy,SupplyHub,13
+East,Office Supplies,Binders,252,49,101,Healthy,StatSource,6
+South,Office Supplies,Binders,278,84,126,Healthy,StatSource,7
+West,Office Supplies,Binders,321,53,82,Healthy,PaperWorld Co,9
+Central,Office Supplies,Paper,257,117,146,Healthy,StatSource,5
+East,Office Supplies,Paper,261,120,171,Healthy,PaperWorld Co,21
+South,Office Supplies,Paper,539,112,172,Healthy,StatSource,13
+West,Office Supplies,Paper,403,59,107,Healthy,SupplyHub,18
+Central,Office Supplies,Storage,532,120,159,Healthy,PaperWorld Co,21
+East,Office Supplies,Storage,137,85,137,Healthy,SupplyHub,12
+South,Office Supplies,Storage,552,97,119,Healthy,SupplyHub,14
+West,Office Supplies,Storage,373,49,74,Healthy,StatSource,19
+Central,Office Supplies,Appliances,473,99,156,Healthy,StatSource,4
+East,Office Supplies,Appliances,540,113,145,Healthy,PaperWorld Co,18
+South,Office Supplies,Appliances,593,59,82,Healthy,PaperWorld Co,6
+West,Office Supplies,Appliances,431,50,102,Healthy,StatSource,8
+Central,Office Supplies,Art,120,71,119,Healthy,PaperWorld Co,19
+East,Office Supplies,Art,242,86,129,Healthy,PaperWorld Co,15
+South,Office Supplies,Art,498,83,141,Healthy,SupplyHub,13
+West,Office Supplies,Art,147,82,108,Healthy,StatSource,15
+Central,Office Supplies,Envelopes,370,72,130,Healthy,SupplyHub,13
+East,Office Supplies,Envelopes,163,114,143,Healthy,PaperWorld Co,12
+South,Office Supplies,Envelopes,481,56,114,Healthy,StatSource,5
+West,Office Supplies,Envelopes,397,111,155,Healthy,StatSource,13
+Central,Office Supplies,Fasteners,210,107,132,Healthy,StatSource,16
+East,Office Supplies,Fasteners,600,86,107,Healthy,PaperWorld Co,12
+South,Office Supplies,Fasteners,264,67,108,Healthy,PaperWorld Co,9
+West,Office Supplies,Fasteners,311,57,86,Healthy,SupplyHub,12
+Central,Office Supplies,Labels,183,104,158,Healthy,StatSource,19
+East,Office Supplies,Labels,118,83,142,Low,SupplyHub,15
+South,Office Supplies,Labels,237,60,91,Healthy,StatSource,8
+West,Office Supplies,Labels,528,45,91,Healthy,PaperWorld Co,10
+Central,Office Supplies,Supplies,534,118,156,Healthy,StatSource,17
+East,Office Supplies,Supplies,319,108,143,Healthy,PaperWorld Co,18
+South,Office Supplies,Supplies,278,87,143,Healthy,PaperWorld Co,17
+West,Office Supplies,Supplies,368,88,140,Healthy,StatSource,16
+Central,Technology,Phones,245,65,123,Healthy,TechParts Global,11
+East,Technology,Phones,133,101,144,Low,GadgetSource Inc,6
+South,Technology,Phones,207,76,101,Healthy,TechParts Global,11
+West,Technology,Phones,540,105,134,Healthy,ElectroSupply,5
+Central,Technology,Accessories,307,97,139,Healthy,TechParts Global,16
+East,Technology,Accessories,134,90,142,Low,ElectroSupply,10
+South,Technology,Accessories,475,50,93,Healthy,TechParts Global,3
+West,Technology,Accessories,406,52,93,Healthy,TechParts Global,7
+Central,Technology,Machines,119,76,126,Low,GadgetSource Inc,7
+East,Technology,Machines,560,97,156,Healthy,TechParts Global,5
+South,Technology,Machines,99,72,105,Low,TechParts Global,20
+West,Technology,Machines,513,54,92,Healthy,TechParts Global,12
+Central,Technology,Copiers,204,46,81,Healthy,ElectroSupply,17
+East,Technology,Copiers,144,54,105,Healthy,GadgetSource Inc,20
+South,Technology,Copiers,96,120,172,Critical,GadgetSource Inc,10
+West,Technology,Copiers,227,77,124,Healthy,TechParts Global,14
